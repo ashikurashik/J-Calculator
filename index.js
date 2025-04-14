@@ -28,7 +28,7 @@ function Solve(val) {
        Result();
     } else if (key === 'Backspace') {
        Back();
-    } else if (key.toLowerCase() === 'c') {
+    } else if (key.toLowerCase() === 'Delete') {
        Clear();
     }
  });
